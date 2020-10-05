@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- //通过代码的方式写出下面数列的第100位，必须要有整个执行过程 -->
+     <!-- 1、1、2、3、5 、8 、13、 21 、34 -->
+     <script>
+            var arr=[1,1]
+            function loop(start,end){
+                arr.push(start+end)
+                if(arr.length===100) return
+                loop(end,start+end)
+            }
+            loop(1,1)
+            console.log(arr);
+            
+     </script>
+</body>
+</html>

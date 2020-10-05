@@ -1,0 +1,41 @@
+.header {
+  height: 13.88888889vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background: #f00;
+}
+.header .logo {
+  font-size: 13.88888889vw;
+  color: #fff;
+}
+.header .personal {
+  font-size: 6.11111111vw;
+  color: #fff;
+}
+.header .link-search {
+  display: block;
+  flex: 1;
+  margin: 0 30px;
+}
+.header .header-search {
+  height: 9.44444444vw;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50px;
+}
+.header .header-search i {
+  font-size: 14px;
+  margin-left: 5px;
+}
+ /deep/ .van-tabs__nav {
+  background: #f6f6f6;
+}
+ /deep/ .van-tabs__line {
+  width: 40px;
+  height: 1px;
+}
